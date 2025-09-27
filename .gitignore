@@ -26,15 +26,43 @@ buildNumber.properties
 .mvn/wrapper/maven-wrapper.jar
 
 # =========================
-# Node / JavaScript
+# Node / JavaScript / React
 # =========================
 node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+
+# Bloqueo de dependencias (opcional si se prefiere no versionar)
 package-lock.json
 yarn.lock
+pnpm-lock.yaml
+
+# Build outputs
+build/
+dist/
+coverage/
+.eslintcache
+.cache/
+.next/           # Next.js
+out/             # Next.js static export
+.storybook/      # Storybook
+.cypress/        # Cypress
+playwright-report/
+.vite/           # Vite
+.histoire/       # Histoire
+test-results/
+
+# Archivos temporales de herramientas
+*.tgz
+*.log
+*.tsbuildinfo
+
+# Env files (NO los ignores si quieres versionar algunos)
+.env
+.env.*
+!.env.example
 
 # =========================
 # Visual Studio Code
@@ -45,12 +73,31 @@ yarn.lock
 # CSS / HTML / Otros recursos web
 # =========================
 *.css.map
-*.sass-cache/
+.sass-cache/
 *.tmp
 *.cache
+.stylelintrc
+*.styl
 
 # =========================
 # Sistema operativo
 # =========================
 .DS_Store
 Thumbs.db
+
+# =========================
+# Otros editores/IDE
+# =========================
+*.sublime-workspace
+*.sublime-project
+.idea/
+*.iml
+*.vscode/
+
+# =========================
+# Misc
+# =========================
+*.bak
+*.orig
+*.swp
+*.swo
