@@ -89,15 +89,9 @@ Para desplegar en un servidor:
 * [React](https://react.dev/) - Librería de frontend
 * [p5.js](https://p5js.org/) - Librería de dibujo interactivo
 
-## Contributing
-
-Por favor lee [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) para conocer detalles sobre nuestro código de conducta y el proceso para enviar *pull requests*.
-
 ## Authors
 
 * **Alejandro Prieto** - *Trabajo inicial* - [AlejandroPrieto82](https://github.com/AlejandroPrieto82)
-
-Ver también la lista de [contribuidores](https://github.com/your/project/contributors) que participaron en este proyecto.
 
 ## License
 
