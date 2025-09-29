@@ -22,7 +22,7 @@ Debes tener instalados:
    ```bash
    git clone https://github.com/AlejandroPrieto82/ARSW-Lab5-IntroduccionReact.git
    cd ARSW-Lab5-IntroduccionReact
-````
+    ```
 
 2. Compila y corre el backend con Maven:
 
